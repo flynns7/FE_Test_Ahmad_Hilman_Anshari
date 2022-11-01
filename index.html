@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="app.css" />
+    <title>TEST FE</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 offset-lg-3 border shadow overflow-hidden">
+          <div class="row bg-first-page">
+            <div class="col-lg-12 col-sm-12 col-12 col-md-12">
+              <img
+                src="assets/images/flower-3.png"
+                alt=""
+                class="img-fluid float-right position-absolute"
+                style="right: -100px; top: -130px"
+              />
+            </div>
+            <div
+              class="col-lg-12 col-sm-12 col-12 col-md-12 mt-5 pt-5"
+            >
+              <h1 class="dark-green font-weight-bold text-center">
+                The Wedding of
+              </h1>
+            </div>
+            <div class="col-lg-12 col-sm-12 col-12 col-md-12 text-center">
+              <img src="assets/images/photo.png" class="img-thumbnail photo" />
+            </div>
+            <div class="col-lg-12 col-sm-12 col-12 col-md-12 text-center mt-5">
+              <h1 class="dark-green font-weight-bold">Mustika<br />& Wira</h1>
+            </div>
+            <div
+              class="col-lg-12 col-sm-12 col-12 col-md-12 d-flex justify-content-center align-items-center mt-3"
+            >
+              <div class="px-2 py-1" style="border: solid 1px #d8a031">
+                <h1 class="dark-green">25 | 05 | 2022</h1>
+              </div>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-12 text-center">
+              <p class="dark-green">di mohon kehadirannya</p>
+            </div>
+            <div class="col-lg-12 col-sm-12 col-12 col-md-12">
+              <img
+                src="assets/images/flower-1.png"
+                alt=""
+                class="w-75 float-left position-absolute"
+                style="bottom: -215px; left: -71px"
+              />
+            </div>
+          </div>
+          <div class="row bg-second-page px-5 p-second-page overflow-hidden">
+            <div class="col-lg-12 col-sm-12 col-12 col-md-12 text-center">
+              <h1 class="dark-gold font-weight-bold">
+                Assalamualaikum Wr. Wb.
+              </h1>
+              <p>
+                Tanpa mengurangi rasa hormat, Kamu mengundang<br />
+                Bapak/Ibu/Saudara/i pada acara pernikahan kami:
+              </p>
+            </div>
+            <div class="col-lg-12 col-sm-12 col-12 col-md-12 text-center">
+              <h1 class="dark-green font-weight-bold">Mustika</h1>
+              <p>Putri dari Bpk Winarno & Ibu Julaikah</p>
+              <h1 class="dark-green">&</h1>
+              <h1 class="dark-green font-weight-bold">Wira</h1>
+              <p>Putri dari Bpk Winarno & Ibu Julaikah</p>
+            </div>
+            <div
+              class="col-lg-12 col-sm-12 col-12 col-md-12 mt-lg-5 pt-lg-5 pt-lg-5 text-center"
+            >
+              <h1 class="dark-gold font-weight-bold">QS. Ar-Rum Ayat 21</h1>
+              <p>
+                Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan
+                pasangan-pasangan untukmu dari jenismu sendiri, agar kamu
+                cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di
+                antaramu rasa kasih dan sayang. Sungguh, pada yang demikian itu
+                benar-benar terdapat tanda-tanda (kebesaran Allah) bagi kaum
+                yang berpikir
+              </p>
+            </div>
+            <div class="col-lg-12 col-sm-12 col-12 col-md-12">
+              <img
+                src="assets/images/flower-2.png"
+                alt=""
+                class="position-absolute flowerb-second-page"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      function updateCurvedText($curvedText, radius) {
+        $curvedText.css("min-width", "initial");
+        $curvedText.css("min-height", "initial");
+        var w = $curvedText.width(),
+          h = $curvedText.height();
+        $curvedText.css("min-width", w + "px");
+        $curvedText.css("min-height", h + "px");
+        var text = $curvedText.text();
+        var html = "";
+
+        Array.from(text).forEach(function (letter) {
+          html += `<span>${letter}</span>`;
+        });
+        $curvedText.html(html);
+
+        var $letters = $curvedText.find("span");
+        $letters.css({
+          position: "absolute",
+          height:`${radius}px`,
+          transformOrigin:"bottom center"
+        });
+
+        var circleLength = 2 * Math.PI * radius;
+        var angleRad = w/(2*radius);
+        var angle = 2 * angleRad * 180/Math.PI/text.length;
+
+        $letters.each(function(idx,el){
+          $(el).css({
+              transform:`translate(${w/2}px,0px) rotate(${idx * angle - text.length*angle/2}deg)`
+          })
+        });
+      }
+
+      var $curvedText = $(".curved-text");
+      updateCurvedText($curvedText,500);
+
+      function settingsChanged(){
+        $curvedText.text($(".text").val());
+        updateCurvedText($curvedText,$(".radius").val());
+      }
+    </script>
+  </body>
+</html>

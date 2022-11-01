@@ -1,0 +1,242 @@
+@media (max-width: 576px) {
+    .p-second-page {
+        padding-top: 200px;
+        padding-bottom: 300px;
+    }
+
+    .flowerb-second-page {
+        bottom: -101px;
+        left: -96px;
+        width: 100%;
+    }
+    .photo{
+        border-radius: 180px;
+        width: 55%;
+    }
+    h1 {
+        font-size: medium;
+    }
+
+    .dark-green {
+        color: #4b5a47;
+    }
+
+    .dark-gold {
+        color: #c29c51;
+    }
+
+    p {
+        color: #84967e;
+        font-size: small;
+    }
+
+    .bg-first-page {
+        background-image: url('./assets/images/bg-first-page.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-position: center top;
+        height: 1200px;
+    }
+
+    .bg-second-page {
+        background-image: url('./assets/images/bg-second-page.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-position: center top;
+        height: 1200px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .flower-bottom-second-page {
+        bottom: -388px;
+        left: -87px;
+        width: 120%;
+    }
+
+    .p-second-page {
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+
+    .photo{
+        border-radius: 180px
+    }
+    .dark-green {
+        color: #4b5a47;
+    }
+
+    .dark-gold {
+        color: #c29c51;
+    }
+
+    p {
+        color: #84967e;
+    }
+
+    .bg-first-page {
+        background-image: url('./assets/images/bg-first-page.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-position: center top;
+        height: 1200px;
+    }
+
+    .bg-second-page {
+        background-image: url('./assets/images/bg-second-page.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-position: center top;
+        height: 1200px;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .flower-bottom-second-page {
+        bottom: -388px;
+        left: -87px;
+        width: 120%;
+    }
+
+    .photo{
+        border-radius: 180px
+    }
+    .p-second-page {
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+
+    .dark-green {
+        color: #4b5a47;
+    }
+
+    .dark-gold {
+        color: #c29c51;
+    }
+
+    p {
+        color: #84967e;
+    }
+
+    .bg-first-page {
+        background-image: url('./assets/images/bg-first-page.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-position: center top;
+        height: 1200px;
+    }
+
+    .bg-second-page {
+        background-image: url('./assets/images/bg-second-page.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-position: center top;
+        height: 1200px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .flower-bottom-second-page {
+        bottom: -388px;
+        left: -87px;
+        width: 120%;
+    }
+
+    .p-second-page {
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+
+    .photo{
+        border-radius: 180px
+    }
+    .dark-green {
+        color: #4b5a47;
+    }
+
+    .dark-gold {
+        color: #c29c51;
+    }
+
+    p {
+        color: #84967e;
+    }
+
+    .bg-first-page {
+        background-image: url('./assets/images/bg-first-page.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-position: center top;
+        height: 1200px;
+    }
+
+    .bg-second-page {
+        background-image: url('./assets/images/bg-second-page.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-position: center top;
+        height: 1200px;
+    }
+}
+
+@media (min-width: 1400px) {
+
+    .flower-bottom-second-page {
+        bottom: -388px;
+        left: -87px;
+        width: 120%;
+    }
+
+    .p-second-page {
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+
+    .photo{
+        border-radius: 180px
+    }
+    .dark-green {
+        color: #4b5a47;
+    }
+
+    .dark-gold {
+        color: #c29c51;
+    }
+
+    p {
+        color: #84967e;
+    }
+
+    .bg-first-page {
+        background-image: url('./assets/images/bg-first-page.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-position: center top;
+        height: 1200px;
+    }
+
+    .bg-second-page {
+        background-image: url('./assets/images/bg-second-page.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-position: center top;
+        height: 1200px;
+    }
+
+    .curved-text{
+        position:relative;
+        display:inline-block;
+        margin:0 auto;
+        font-size:100px;
+      }
+      
+      .curved-text span{
+        min-width:0.5em;
+        text-align:center;
+        padding:0;
+        margin:0;
+      }
+}
